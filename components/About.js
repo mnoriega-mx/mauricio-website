@@ -1,4 +1,5 @@
 import { profile } from "@/data/profile";
+import FunFactsGrid from "./FunFactsGrid";
 
 export default function About() {
   return (
@@ -12,22 +13,35 @@ export default function About() {
             {profile.bio.split("\n\n").map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
+            <div className="flex flex-wrap items-center gap-2 pt-2">
+              <span className="text-xs uppercase tracking-wider text-gray-500">
+                Languages
+              </span>
+              {profile.languages.map((lang) => (
+                <span
+                  key={lang.name}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm text-gray-700"
+                >
+                  <span className="font-medium text-gray-900">
+                    {lang.name}
+                  </span>
+                  <span className="text-gray-400">·</span>
+                  <span className="text-gray-500">{lang.level}</span>
+                </span>
+              ))}
+            </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            {profile.stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="rounded-2xl border border-gray-200 bg-white p-6 transition-all duration-200 hover:border-blue-200 hover:shadow-sm"
-              >
-                <div className="font-serif text-4xl text-blue-600 md:text-5xl">
-                  {stat.value}
-                </div>
-                <div className="mt-2 text-sm leading-snug text-gray-500">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
+          <div>
+            <h3 className="font-serif text-2xl text-gray-900">
+              A few randoms about me.
+            </h3>
+            <p className="mt-1 text-sm text-gray-500">
+              Click any card to flip it.
+            </p>
+            <div className="mt-6">
+              <FunFactsGrid />
+            </div>
           </div>
         </div>
       </div>

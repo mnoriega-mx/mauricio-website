@@ -5,7 +5,7 @@ import { highSchool, university, masters } from "@/data/education";
 import PdfPreviewButton from "./PdfPreviewButton";
 
 const TABS = [
-  { id: "masters", label: "Master's", meta: "Ongoing", data: masters },
+  { id: "masters", label: "Master's", meta: "Internship phase", data: masters },
   {
     id: "university",
     label: "University",
