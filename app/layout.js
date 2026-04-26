@@ -4,14 +4,18 @@ import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
-  display: "swap",
+  display: "optional",
+  preload: true,
   variable: "--font-inter",
+  adjustFontFallback: true,
 });
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
-  display: "swap",
+  display: "optional",
+  preload: true,
   variable: "--font-playfair",
+  adjustFontFallback: true,
 });
 
 export const metadata = {
