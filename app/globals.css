@@ -13,6 +13,7 @@
 }
 
 html {
+  font-size: 20px;
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
 }
@@ -27,7 +28,7 @@ body {
 
 @layer components {
   .container-page {
-    @apply mx-auto w-full px-6 md:px-16 lg:px-24;
+    @apply mx-auto w-full max-w-6xl px-6 md:px-10;
   }
 
   .section-padding {
