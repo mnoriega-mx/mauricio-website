@@ -19,7 +19,7 @@ export const projects = [
       "TensorFlow",
       "LSTM",
     ],
-    demo: null,
+    demo: "https://www.youtube.com/watch?v=PAbW2O2NOXw",
     github: "https://github.com/mnoriega-mx/HackaWu",
   },
   {
