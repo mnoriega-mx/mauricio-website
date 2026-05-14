@@ -19,15 +19,15 @@ export const projects = [
       "TensorFlow",
       "LSTM",
     ],
-    demo: null,
+    demo: "https://www.youtube.com/watch?v=PAbW2O2NOXw",
     github: "https://github.com/mnoriega-mx/HackaWu",
   },
   {
     title: "WuSolutions",
-    badge: "🏆 1st Place — SAP Challenge",
+    badge: "University SAP Challenge",
     image: "/images/projects/wusolutions.jpg",
     description:
-      "SAP came to our class with a real problem: small and medium-sized businesses needed a better way to manage their supply chains, and they wanted us to build it. Our team took on the challenge and delivered WuSolutions, a supply chain ERP platform built on SAP's enterprise ecosystem. We presented the proposal directly to SAP and won first place. The system connects every link in the chain: store managers place requests, warehouse teams fulfill them, suppliers receive real-time visibility, and administrators get a live pulse on inventory health, sales trends, and order lifecycles across every branch. No more guesswork, no more reactive firefighting. Under the hood, WuSolutions runs on SAP HANA Cloud for enterprise-grade data management, with a Node.js/Express backend serving a React frontend built with SAP UI5 Web Components. The most interesting layer is the ML pipeline, a Python-powered sales forecasting model that predicts demand before it becomes a stockout, giving operations teams the foresight to act instead of react. From role-based access control that isolates data per location, to a Swagger-documented API, to a connection pool handling up to 50 concurrent database sessions, the architecture was designed with the operational realities of real businesses in mind.",
+      "SAP came to us with a real problem: small and medium-sized businesses needed a better way to manage their supply chains, and they wanted us to build it. Our team took on the challenge and delivered WuSolutions, a supply chain ERP platform built on SAP's enterprise ecosystem. We presented the proposal directly to SAP and won first place. The system connects every link in the chain: store managers place requests, warehouse teams fulfill them, suppliers receive real-time visibility, and administrators get a live pulse on inventory health, sales trends, and order lifecycles across every branch. No more guesswork, no more reactive firefighting. Under the hood, WuSolutions runs on SAP HANA Cloud for enterprise-grade data management, with a Node.js/Express backend serving a React frontend built with SAP UI5 Web Components. The most interesting layer is the ML pipeline, a Python-powered sales forecasting model that predicts demand before it becomes a stockout, giving operations teams the foresight to act instead of react. From role-based access control that isolates data per location, to a Swagger-documented API, to a connection pool handling up to 50 concurrent database sessions, the architecture was designed with the operational realities of real businesses in mind.",
     tech: [
       "React",
       "Node.js",
