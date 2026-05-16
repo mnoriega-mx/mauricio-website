@@ -1,5 +1,41 @@
 export const projects = [
   {
+    title: "Snapdragon Yield Analytics",
+    badge: null,
+    image: "/images/projects/snapdragon-yield-analytics.png",
+    description:
+      "An AI agent that investigates yield excursions in Snapdragon SoC production. An engineer can ask questions about chip test data and a Claude AI agent orchestrates five tools to deliver root cause analysis: a SQLite query interface, an SPC metrics calculator, an anomaly detector, a chart generator, and a markdown report writer. The agent uses Anthropic's Claude API with structured tool use and never executes free-form code, so every data path is a predefined function. The synthetic dataset covers 70,000 chip test records across 7 production days, with a drift excursion injected on the last day that drops yield from a 97.8% baseline to 84.5% as NPU TOPS fall below the 48 TOPS pass threshold on affected chips.",
+    tech: [
+      "Python",
+      "Streamlit",
+      "Claude API",
+      "SQLite",
+      "pandas",
+      "scipy",
+      "matplotlib",
+    ],
+    demo: "https://youtu.be/FCCGSN_Ipb8",
+    github: "https://github.com/mnoriega-mx/snapdragon-yield-analytics",
+  },
+  {
+    title: "Cryptographic Key Lifecycle Monitor",
+    badge: null,
+    image: "/images/projects/crypto-key-monitor.png",
+    description:
+      "An AI agent for enterprise cryptographic key lifecycle management and post-quantum cryptography (PQC) migration tracking. The app simulates a security operations team monitoring 500 cryptographic keys and 200 systems. A Claude AI agent orchestrates six tools to surface prioritized findings: a key inventory query interface that filters by algorithm, environment, expiry window, and risk tier; a deterministic risk scorer that weights five factors including algorithm quantum vulnerability and expiry proximity; an audit log anomaly detector that flags off-hours access, geographic outliers, and volume spikes; a PQC migration velocity tracker; a chart generator; and a markdown report writer. The post-quantum angle is the core motivation, since RSA-2048 and ECC-P256 are vulnerable to future quantum computers via \"harvest now, decrypt later\" attacks, and NIST finalized its first PQC standards in 2024 with federal agencies facing a 2035 migration deadline.",
+    tech: [
+      "Python",
+      "Streamlit",
+      "Claude API",
+      "SQLite",
+      "pandas",
+      "matplotlib",
+      "plotly",
+    ],
+    demo: "https://youtu.be/hmwuxUoyPxU",
+    github: "https://github.com/mnoriega-mx/Cryptographic-Key-Lifecycle-Monitor",
+  },
+  {
     title: "SentryWu",
     badge: "Hackathon Project",
     images: [
