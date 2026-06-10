@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Snapdragon Yield Analytics",
+    title: "Chip Manufacturing Yield Failure Analyzer",
     badge: null,
     image: "/images/projects/snapdragon-yield-analytics.png",
     description:
