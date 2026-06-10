@@ -36,7 +36,7 @@ export const projects = [
     github: "https://github.com/mnoriega-mx/Cryptographic-Key-Lifecycle-Monitor",
   },
   {
-    title: "SentryWu",
+    title: "Real-Time Threat Detection System",
     badge: "Hackathon Project",
     images: [
       "/images/projects/sentrywu-1.jpg",
