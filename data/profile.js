@@ -12,7 +12,7 @@ export const profile = {
   languages: [
     { name: "Spanish", level: "Native" },
     { name: "English", level: "C1" },
-    { name: "French", level: "B1" },
+    { name: "French", level: "B2" },
   ],
   funFacts: [
     { emoji: "🌀", text: "My personality type is ENFP" },
