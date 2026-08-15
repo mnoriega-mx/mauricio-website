@@ -11,7 +11,7 @@ export const profile = {
   bio: `My name is Mauricio Noriega, and I am a Computer Science student from Monterrey Institute of Technology, currently completing a double degree in International Management and Data Analytics at Rennes School of Business in France. I have a solid technical background that covers software development, data science, and machine learning. What I enjoy most is when technical work connects directly to a business outcome, and my double degree has helped me develop both sides of that. I am comfortable working in international, cross-functional teams and I learn quickly when I am thrown into something new.`,
   languages: [
     { name: "Spanish", level: "Native" },
-    { name: "English", level: "C1" },
+    { name: "English", level: "C2" },
     { name: "French", level: "B2" },
   ],
   funFacts: [
