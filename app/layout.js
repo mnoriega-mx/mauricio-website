@@ -1,4 +1,5 @@
 import { Inter, Playfair_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import Providers from "@/components/Providers";
 import "./globals.css";
 
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body className="font-sans">
         <Providers>{children}</Providers>
+        <Analytics />
       </body>
     </html>
   );
