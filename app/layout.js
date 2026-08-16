@@ -20,7 +20,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Mauricio Noriega — Computer Science & Data Analytics",
+  title: "Mauricio Noriega — Software Developer",
   description:
     "Computer Science student from Tec de Monterrey completing a double degree in International Management and Data Analytics at Rennes School of Business.",
 };

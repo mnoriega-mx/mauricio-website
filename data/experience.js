@@ -1,5 +1,19 @@
 export const work = [
   {
+    role: "Software Engineer Intern – Embedded Systems",
+    company: "DETEC",
+    period: "Starting Oct 2026",
+    location: "Monterrey, MX",
+    upcoming: true,
+    bullets: [
+      "Develop embedded Linux components, including kernel compilation and hardware drivers, connecting the hardware layer to the Linux user-space layer.",
+      "Build driver and communication layers spanning from the kernel level up to user space.",
+      "Contribute to a cloud platform for secure, remote management of embedded devices.",
+      "Work with proprietary Qualcomm Linux distributions combining open-source and vendor-specific components.",
+      "Implement messaging across internal processor, peripheral, and external cloud communication layers.",
+    ],
+  },
+  {
     role: "Computer Systems Intern",
     company: "BenefIT",
     period: "Jan 2025 – Jul 2025",
@@ -21,6 +35,33 @@ export const work = [
     bullets: [
       "Spearheaded the planning and execution of over 10 corporate events annually.",
       "Regularly led teams of 3–8 staff members by fostering a collaborative environment and effectively managing resources to achieve project goals, resulting in a high client retention rate and positive testimonials.",
+    ],
+  },
+];
+
+export const competitions = [
+  {
+    role: "Software Engineer",
+    company: "SAP University Innovation Challenge",
+    period: "Feb 2025 – Jun 2025",
+    location: "Monterrey, MX",
+    bullets: [
+      "Delivered a full-stack supply chain management platform for SMEs as part of SAP's University Innovation Challenge.",
+      "Engineered a full-stack JavaScript application with a React frontend and Node.js backend, integrated with SAP BTP and SAP HANA via RESTful APIs, with JWT authentication and cloud deployment on Cloud Foundry.",
+      "Built machine learning models in Python to support inventory planning decisions.",
+      "Owned the full software development lifecycle, from requirements gathering with the SAP client to architecture, implementation, testing, and deployment, producing 50+ pages of engineering and project documentation.",
+      "Configured GitHub Actions CI/CD pipelines to automate testing and continuously deliver changes to production.",
+    ],
+  },
+  {
+    role: "2x Hackathon Participant",
+    company: "HackMTY",
+    period: "",
+    location: "Monterrey, MX",
+    bullets: [
+      "Competed in two editions of HackMTY, taking each idea from concept to a working, demoed prototype within the event's time limit.",
+      "Worked in small teams under pressure, owning full-stack development and the live pitch to judges.",
+      "See SentryWu and Mr. Investor in the Projects section for the builds these produced.",
     ],
   },
 ];
