@@ -7,7 +7,7 @@ import PdfPreviewButton from "./PdfPreviewButton";
 const TABS = [
   { id: "masters",
     label: "Master's",
-    meta: "Looking for internship",
+    meta: "Double Degree",
     data: masters },
   {
     id: "university",

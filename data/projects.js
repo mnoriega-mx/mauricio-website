@@ -1,5 +1,22 @@
 export const projects = [
   {
+    title: "Steam Game Recommendation System",
+    badge: null,
+    image: "/images/projects/steam.png",
+    description:
+      "A recommendation system built end to end on the Steam reviews dataset from Kaggle, roughly 41 million interactions across 13.8 million users and 37,610 games. The core challenge is that the data is implicit feedback, meaning that there are no clean dislikes, only the games people played and reviewed, so the whole system optimizes for ranking the right games at the top of a list instead of predicting a score, and it has to fight the popularity bias baked into who reviews what. I built and compared three models against a popularity baseline: an ALS matrix factorization baseline using the implicit library, a two-tower neural network in PyTorch, and a content-based model on game tags for cold-start fallback. Every model ranks all 29,698 games for 50,000 held-out users and measures Recall@K, NDCG@K, and MAP@K. The most interesting result caught me completely off-guard: After running the first evaluation, the two-tower model actually lost to everything because its in-batch softmax punished popular games as negatives. To fix this, I added a logQ sampled-softmax correction that removed that penalty and pushed the two-tower past ALS on every metric, a 3.4x jump in Recall@10.",
+    tech: [
+      "Python",
+      "PyTorch",
+      "ALS",
+      "scikit-learn",
+      "pandas",
+      "NumPy",
+    ],
+    demo: null,
+    github: "https://github.com/mnoriega-mx/steam-game-recommendation-system",
+  },
+  {
     title: "Chip Manufacturing Yield Failure Analyzer",
     badge: null,
     image: "/images/projects/snapdragon-yield-analytics.png",

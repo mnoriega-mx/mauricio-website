@@ -102,7 +102,7 @@ export const highSchool = {
 export const university = {
   institution: "Monterrey Institute of Technology (Tec de Monterrey)",
   degree: "Bachelor of Science in Computer Science",
-  period: "August 2022 – 2027",
+  period: "August 2022 – December 2027",
   location: "Monterrey, NL, Mexico",
   documents: [],
   semesters: [
@@ -172,11 +172,15 @@ export const university = {
     },
     {
       title: "Semester 8",
+      period: "Jan – May 2027",
       pending: true,
-      courses: [
-        "Development of Advanced Computer Science Applications",
-        "Implementation of Wide Area Networks and Distributed Services",
-      ],
+      courses: ["Development of Advanced Computer Science Applications"],
+    },
+    {
+      title: "Semester 9",
+      period: "Aug – Dec 2027",
+      pending: true,
+      courses: ["Implementation of Wide Area Networks and Distributed Services"],
     },
   ],
 };
@@ -186,7 +190,7 @@ export const masters = {
   degree: "Double Degree — International Management & Data Analytics",
   period: "September 2025 – May 2026",
   location: "Rennes, France",
-  note: "Completed in parallel with my Bachelor's through a partnership between Tec de Monterrey and Rennes School of Business, where the masters coursework also counts as my exchange semester. The program includes an end-of-study internship, which I'm currently looking for.",
+  note: "Completed in parallel with my Bachelor's through a partnership between Tec de Monterrey and Rennes School of Business, where the masters coursework also counts as my exchange semester. The program concludes with an end-of-study internship.",
   documents: [],
   semesters: [
     {
@@ -212,6 +216,11 @@ export const masters = {
         "Optimization and Simulation",
         "Time Series Analysis",
       ],
+    },
+    {
+      title: "Semester 3",
+      period: "Aug – Dec 2026",
+      courses: ["End-of-Study Internship"],
     },
   ],
 };
